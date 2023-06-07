@@ -1,34 +1,23 @@
-import React from 'react'
+import React from "react";
+import SingleMenu from "./SingleMenu";
+import MenuData from "../Components/data/MenuData";
+import ChangeModeBtn from "./ChangeModeBtn";
+
+
 
 function Menus() {
-    var menus = [
-        {
-            title : Home
-        },
-        {
-            title : About
-        },
-        {
-            title : Skills
-        },
-        {
-            title : Work
-        },
-        {
-            title : Contact
-        }
-        
-        
-        
-    ]
-
   return (
-    <div>
-        {
-            menus.map(menu => (<a title={menu.title}>{title}</a>))
-        }
-    </div>
-  )
+    <>
+      {MenuData.map((menu) => (
+        <SingleMenu
+          key={menu.title}
+          title={menu.title}
+          link={menu.link}
+        ></SingleMenu>
+      ))}
+      {MenuData.title}
+    </>
+  );
 }
 
-export default Menus
+export default Menus;
