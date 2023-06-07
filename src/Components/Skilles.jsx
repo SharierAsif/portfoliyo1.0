@@ -11,7 +11,7 @@ function Skilles() {
         </h4>
         <div className="grid max-md:grid-cols-1 grid-cols-2 gap-8 text-slate-900">
           <div className="m-auto text-center">
-            <h2 className="text-lg font-semibold mb-6 ">Profesional Skills</h2>
+            <h2 className="text-3xl font-semibold mb-6 ">Profesional Skills</h2>
             <p className="skills__text dark:text-blue-100">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
               optio id vero amet, alias architecto consectetur error eum eaque
